@@ -37,10 +37,13 @@ This repository is provided "as is" with no guarantees. Use the contents on
 your own risk.
 
 ---
-## Stable Build Configurations
+## Build Status
 
-| Host OS      | Linux Kernel | VMware Workstation Pro                         | Status |
-| ------------ | ------------ | ---------------------------------------------- | ------ |
-| Ubuntu-26.04 | 7.0.0-28     | VMware-Workstation-Full-17.5.2-23775571.x86_64 | OK     |
+The kernel modules compile, but extensive testing will be required to see if the current minimal set of patches are sufficient.
+
+| Host OS      | Linux Kernel | VMware Workstation Pro                         | Status                                                                                                                              |
+| ------------ | ------------ | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Ubuntu-26.04 | 7.0.0-28     | VMware-Workstation-Full-17.5.2-23775571.x86_64 | OK                                                                                                                                  |
+| Ubuntu-26.04 | 7.0.0-28     | VMware-Workstation-Full-17.6.4-24832109.x86_64 | Check for system stability when used for a long period.<br><br>Some graphics corruption detected when using Notepad++ in dark mode. |
 
 ---

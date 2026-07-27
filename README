@@ -1,5 +1,5 @@
 This repository tracks patches needed to build VMware (Player and
-Workstation) host modules against recent kernels. As it focuses on recent
+Workstation) host modules against recent linux kernels (7.x(. As it focuses on recent
 kernels (older ones do not need patching), only vmmon and vmnet modules are
 currently handled as the rest has been upstreamed for some time.
 
@@ -31,7 +31,16 @@ that have been addressed long ago. Therefore, starting with kernel 6.0,
 these per kernel tags are no longer going to be provided.
 
 At the moment, changes are tested to build against all (vanilla) kernel
-releases starting with 4.9.
+releases starting with 7.0.
 
 This repository is provided "as is" with no guarantees. Use the contents on
 your own risk.
+
+---
+## Stable Build Configurations
+
+| Host OS      | Linux Kernel | VMware Workstation Pro                         | Status |
+| ------------ | ------------ | ---------------------------------------------- | ------ |
+| Ubuntu-26.04 | 7.0.0-28     | VMware-Workstation-Full-17.5.2-23775571.x86_64 | OK     |
+
+---
